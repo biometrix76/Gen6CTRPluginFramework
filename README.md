@@ -31,4 +31,4 @@ Thanks to the following projects, teams, and individuals for being great resourc
 - [AnalogMan151](https://github.com/AnalogMan151) for the ultraSuMoFramework foundation of [Alolan CTRPluginFramework](https://github.com/biometrix76/alolanctrpluginframework/releases/latest)
 - [dragongyre173](https://github.com/dragonfyre173) for the data viewer overlay in-game
 - [JourneyOver](https://github.com/JourneyOver/CTRPF-AR-CHEAT-CODES) et al. for providing an extensive ActionReplay code database
-- [Alexander Hartmann](https://github.com/Hartie95) for the XY & ORAS foundation of this plugin
+- [Alexander Hartmann](https://github.com/Hartie95) & [semaj14](https://github.com/semaj14) for providing the XY & ORAS foundation of this plugin
