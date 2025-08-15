@@ -1,0 +1,359 @@
+﻿# English - native plugin language.
+
+# This .txt file is up-to-date with Gen 6 CTRPluginFramework 0.1.1. File parsing and language support is based off of Lukas' ACNL plugin.
+# To edit the plugin's text to your own liking, change the text behind the "::" ONLY.
+# "\n" means new line so do not remove that.
+# Every Line that starts with "#" is just a note and does not need to be changed.
+
+# If translating to other languages, ONLY replace texts after "::".
+
+# Player Search System
+PLAYER_SEARCH_SYSTEM :: PSS
+PLAYER_SEARCH_SYSTEM_PROFILE :: Profile
+PLAYER_SEARCH_SYSTEM_O_POWER_GAUGE :: O-Power Gauge
+PLAYER_SEARCH_SYSTEM_CLEAR_USERS_LIST :: Clear Users List
+PLAYER_SEARCH_SYSTEM_UNLOCK_EVERY_O_POWER :: Unlock Every O-Power
+PLAYER_SEARCH_SYSTEM_UNLOCK_EVERY_O_POWER_NOTE :: Save the game and restart to apply changes permanently.
+
+# Keyboard
+KB_PSS_ICON :: Icon:
+KB_PSS_NICES :: Nices:
+KB_PSS_WISHES :: Wishes:
+KB_PSS_PROFILE_MESSAGE :: Message:
+KB_PSS_HISTORY :: History:
+KB_PSS_CLEAR_HISTORY :: Clear
+KB_PSS_HISTORY_CLEARED :: History cleared!
+KB_PSS_BATTLE :: Battles
+KB_PSS_TRADE :: Trades
+KB_PSS_LINKS :: Links:
+KB_PSS_SELECT_LINK :: Select destination:\n\n
+KB_PSS_LINK :: Link
+KB_PSS_WIFI :: WiFi
+KB_PSS_IR :: IR
+KB_PSS_TOTAL_LINK :: Total:
+KB_PSS_LINK_AMOUNT :: Amount:
+KB_PSS_SURVEY_DUPLICATE :: Duplicate (Source):
+KB_PSS_SURVEY_PASTE_TO :: To (Destination):
+KB_PSS_SURVEY :: Mini Survey(s) duplicated!
+KB_PSS_GREETS :: Greets:
+KB_PSS_GREET_TODAY :: Today
+KB_PSS_GREET_TOTAL :: Total
+KB_PSS_PROFILE_ICONS :: Icons
+KB_PSS_PROFILE_NICES :: Nices
+KB_PSS_PROFILE_WISHES :: Wishes
+KB_PSS_PROFILE_MESSAGE_2:: Message
+KB_PSS_PROFILE_HISTORY :: History
+KB_PSS_PROFILE_LINKS :: Links
+KB_PSS_PROFILE_MINI_SURVEY :: Mini Survey
+KB_PSS_PROFILE_GREETS :: Greets
+KB_PSS_USER_LIST_FRIENDS :: Friendship
+KB_PSS_USER_LIST_ACQUAINTANCES :: Acquaintances
+KB_PSS_USER_LIST_CLEARED :: User list cleared!
+
+# MESSAGE
+NOTE_UNLOCK_O_POWER_DONE :: Already unlocked all O-Powers!
+NOTE_UNLOCK_O_POWERS :: All O-Powers unlocked!
+
+# Battle
+BATTLE :: Combat
+BATTLE_PARTY_POSITION :: Party Position:
+BATTLE_IN_BATTLE :: In Battle
+BATTLE_CONDITION :: Condition
+BATTLE_STATS :: Stats
+BATTLE_HEALTH_AND_MANA :: Health & Mana
+BATTLE_ITEM :: Item
+BATTLE_MOVES :: Moves
+BATTLE_EXP_MULTIPLIER :: Exp. Multiplier
+BATTLE_VIEW_POKEMON_INFOS :: View Pokemon Infos.
+BATTLE_ACCESS_BAG :: Access Bag
+BATTLE_ALLOW_MEGAS :: Allow 1+ Megas
+BATTLE_OTHER :: Other
+BATTLE_NO_WILD_POKEMON :: No Wild Pokemon
+BATTLE_WILD_POKEMON_SPAWNER :: Wild Pokemon Spawner
+BATTLE_ALWAYS_SHINY :: Always Shiny
+BATTLE_CAPTURE_RATE_100 :: Capture Rate 100%
+BATTLE_CAPTURE_TRAINER_POKEMON :: Capture Trainer Pokemon
+
+# Keyboard
+KB_BATTLE_EMPTY :: [Empty]
+KB_BATTLE_POSITION :: Position:
+KB_BATTLE_SELECTED_POSITION :: Selected in-battle position:
+KB_BATTLE_PARALYZED :: Paralyzed
+KB_BATTLE_ASLEEP :: Asleep
+KB_BATTLE_FROZEN :: Frozen
+KB_BATTLE_BURNED :: Burned
+KB_BATTLE_POISONED :: Poisoned
+KB_BATTLE_NO_STATUS_EFFECTS :: None
+KB_BATTLE_AFFECTED :: Affected
+KB_BATTLE_STATUS_REMOVED :: Status conditioned removed
+KB_BATTLE_STATUS_APPLIED :: Status condition applied:
+KB_BATTLE_STATS_BASE :: Base
+KB_BATTLE_STATS_BOOST :: Boosts
+KB_BATTLE_STAT_ATTACK :: Attack
+KB_BATTLE_STAT_DEFENSE :: Defense
+KB_BATTLE_STAT_SP_ATTACK :: Sp. Attack
+KB_BATTLE_STAT_SP_DEFENSE :: Sp. Defense
+KB_BATTLE_STAT_SPEED :: Speed
+KB_BATTLE_STAT_ACCURACY :: Accuracy
+KB_BATTLE_STAT_EVASIVENESS :: Evasiveness
+KB_BATTLE_STAT_UPDATED :: Updated
+KB_BATTLE_STAT_BOOSTED :: Boosted
+KB_BATTLE_HEALTH :: Health
+KB_BATTLE_MANA :: Mana
+KB_BATTLE_HEALTH_SET_TO :: Health set to:
+KB_BATTLE_MANA_SET_TO :: PP set to:
+KB_BATTLE_ITEM_CHANGED :: Item changed:
+KB_BATTLE_MOVE :: Move
+
+PK_VIEW_HP :: HP
+PK_VIEW_ATK :: Atk
+PK_VIEW_DEF :: Def
+PK_VIEW_SPE :: Spe
+PK_VIEW_SPA :: SpA
+PK_VIEW_SPD :: SpD
+PK_VIEW_SLOT :: Slot:
+PK_VIEW_SPECIES :: Species:
+PK_VIEW_NATURE :: Nature:
+PK_VIEW_ITEM :: Item:
+PK_VIEW_ABILITY :: Ability:
+PK_VIEW_MOVES :: [Moves]
+PK_VIEW_NONE :: None
+PK_VIEW_IV :: [IV]
+PK_VIEW_EV :: [EV]
+PK_VIEW_ENABLE :: Enable
+PK_VIEW_DISABLE :: Disable
+PK_VIEW_INFO :: Info view:
+
+SPAWNER_INVALID :: Invalid species selected
+KB_SPAWNER_FORM :: Form:
+KB_SPAWNER_LEVEL :: Level:
+SPAWNER_SPAWNING :: Spawning:
+
+# Editor & PKHeX
+EDITOR :: PKHeX
+EDITOR_TRAINER :: Trainer
+EDITOR_INFO :: Info
+EDITOR_TID_SID :: TID & SID
+EDITOR_IGN :: Name
+EDITOR_TIME_PLAYED :: Time Played
+EDITOR_GAME_LANGUAGE :: Game Language
+EDITOR_BAG :: Bag
+EDITOR_CURRENCY :: Currency
+EDITOR_MONEY :: Money
+EDITOR_BATTLE_POINTS :: Battle Points
+EDITOR_POKE_MILES :: Poké Miles
+EDITOR_BAG_ITEMS :: Items
+EDITOR_BAG_MEDICINE :: Medicines
+EDITOR_BAG_BERRIES :: Berries
+EDITOR_BAG_SPECIAL :: TMs & HMs + Key Items
+EDITOR_BAG_TMS_HMS :: TMs & HMs
+EDITOR_BAG_KEY_ITEMS :: Key Items
+EDITOR_PC_BOX :: PC Box
+EDITOR_PC_EXPORT_IMPORT :: Export & Import
+EDITOR_PC :: Editor
+EDITOR_PC_POSITION :: Position
+EDITOR_PC_MAIN :: Main
+EDITOR_PC_SHINY :: Shiny
+EDITOR_PC_SPECIES :: Species
+EDITOR_PC_IS_NICKNAMED :: Is Nicknamed
+EDITOR_PC_NICKNAME :: Nickname
+EDITOR_PC_LEVEL :: Level
+EDITOR_PC_NATURE :: Nature
+EDITOR_PC_GENDER :: Gender
+EDITOR_PC_FORM :: Form
+EDITOR_PC_HELD_ITEM :: Held Item
+EDITOR_PC_ABILITY :: Ability
+EDITOR_PC_FRIENDSHIP :: Friendship
+EDITOR_PC_LANGUAGE :: Language
+EDITOR_PC_IS_EGG :: Is Egg
+EDITOR_PC_VIRUS :: Pokérus
+EDITOR_PC_COUNTRY :: Country
+EDITOR_PC_REGION :: 3DS Region
+EDITOR_PC_ORIGINS :: Origins
+EDITOR_PC_ORIGINS_GAME_FROM :: Game From
+EDITOR_PC_ORIGINS_BALL :: Ball
+EDITOR_PC_ORIGINS_MET_LEVEL :: Met Level
+EDITOR_PC_ORIGINS_MET_DATE :: Met Date
+EDITOR_PC_ORIGINS_IS_FATEFUL_ENCOUNTER :: Is Fateful Enc.
+EDITOR_PC_ORIGINS_EGG_MET_DATE :: Egg Met Date
+EDITOR_PC_STATS :: Stats
+EDITOR_PC_STATS_HP :: HP
+EDITOR_PC_STATS_ATK :: Atk
+EDITOR_PC_STATS_DEF :: Def
+EDITOR_PC_STATS_SPE :: Spe
+EDITOR_PC_STATS_SPA :: SpA
+EDITOR_PC_STATS_SPD :: SpD
+EDITOR_PC_STATS_IV :: IV
+EDITOR_PC_STATS_EV :: EV
+EDITOR_PC_STATS_CONTEST :: Contest
+EDITOR_PC_MOVES :: Moves
+EDITOR_PC_MOVES_CURRENT :: Current Moves
+EDITOR_PC_PP_UPS :: PP Ups
+EDITOR_PC_RELEARN_MOVES :: Relearn Moves
+EDITOR_PC_MISC :: Misc.
+EDITOR_PC_MISC_SID :: SID
+EDITOR_PC_MISC_TID :: TID
+EDITOR_PC_MISC_OT_NAME :: OT Name
+EDITOR_PC_MISC_LATEST_OT :: Latest (not OT) Handler
+EDITOR_PC_ANYWHERE :: PC Anywhere
+EDITOR_PC_BOXES :: 31 Boxes Unlocked
+EDITOR_BOX :: Box:
+EDITOR_POSITION :: Position:
+EDITOR_INVALID_POSITION :: Invalid position
+EDITOR_CONTEST_COOL :: Cool
+EDITOR_CONTEST_BEAUTY :: Beauty
+EDITOR_CONTEST_CUTE :: Cute
+EDITOR_CONTEST_SMART :: Smart
+EDITOR_CONTEST_TOUGH :: Tough
+EDITOR_CONTEST_SHEEN :: Sheen
+EDITOR_BOXES_UNLOCKED :: All boxes unlocked!
+EDITOR_BOXES_ALREADY_UNLOCKED :: Already unlocked all boxes!
+EDITOR_CLONE_FAILED_DATA :: Failed to retrieve Pokemon from source
+EDITOR_CLONE_FAILED_PASTE :: Failed to set Pokemon to destination
+EDITOR_CLONE_SUCCESS :: Pokemon cloned successfully
+EDITOR_CLONE_START_BOX :: Copy from which box:
+EDITOR_CLONE_BOX_POSITION :: Which position in box
+EDITOR_CLONE_PASTE_BOX :: Paste to box:
+EDITOR_CLONE_PASTE_BOX_POSITION :: To which position in box:
+EDITOR_CLONE_FAILED_INIT :: Failed to initiate cloning
+SEARCH_SPECIES :: Species:
+SEARCH_ABILITY :: Ability:
+SEARCH_ITEM :: Item:
+SEARCH_MOVE :: Move:
+
+# Message
+NOTE_TIME_UPDATED :: Time played updated.
+NOTE_TIME_HOURS :: Hours
+NOTE_TIME_MINUTES :: Minutes
+NOTE_TIME_SECONDS :: Seconds
+NOTE_LANGUAGE_JAPANESE :: Japanese
+NOTE_LANGUAGE_ENGLISH :: English
+NOTE_LANGUAGE_FRENCH :: French
+NOTE_LANGUAGE_ITALIAN :: Italian
+NOTE_LANGUAGE_GERMAN :: German
+NOTE_LANGUAGE_SPANISH :: Spanish
+NOTE_LANGUAGE_KOREAN :: Korean
+NOTE_GAME_LANGUAGE :: Save and restart to change to:
+NOTE_EXPORT_FILE_NAME :: Name:
+NOTE_EXPORT_SUCCESS :: Data exported successfully!
+NOTE_IMPORT_SUCCESS :: Data imported successfully!
+NOTE_BACKUP_LIMIT :: Limit reached! Erase old backups?
+NOTE_BACKUPS_ERASED :: All backups have been erased
+NOTE_EDITOR_EXPORT :: Export
+NOTE_EDITOR_IMPORT :: Import
+NOTE_BACKUP_NONE :: No backups available for recovery
+NOTE_BACKUP_INVALID :: Invalid choice. Please try again
+NOTE_EDITOR_FAILED_ENCRYPT :: Failed to encrypt or write data!
+NOTE_SHINIFY :: Species made shiny?
+NOTE_SPECIES_MALE :: Male
+NOTE_SPECIES_FEMALE :: Female
+NOTE_CANNOT_CHANGE_GENDER :: Cannot change gender
+NOTE_FORM_UPDATE :: Form updated!
+NOTE_VIRUS_CURED :: Cured
+NOTE_VIRUS_NON_CURED :: Non-Cured
+NOTE_VIRUS_STRAIN :: Strain:
+NOTE_VIRUS_DAYS :: Days:
+NOTE_MET_YEAR :: Year
+NOTE_MET_MONTH :: Month
+NOTE_MET_DAY :: Day
+
+# Misc.
+MISC :: Misc.
+MISC_FAST_WALK_RUN :: Fast Walk & Run
+MISC_WALK_THROUGH_WALLS :: Walk Through Walls
+MISC_STAY_IN_ACTION :: Stay in Action Mode
+MISC_ACTION_MUSIC :: Action Music
+MISC_TELEPORTATION :: Teleportation
+MISC_ACCESS_FLY_MAP :: Access Fly Map via Summary
+MISC_UNLOCK_MAP :: Unlock Full Fly Map
+MISC_OTHER :: Other
+MISC_RENAME_POKEMON :: Rename Pokemon
+MISC_LEARN_ANY :: Learn Any TM & HM
+MISC_INSTANT_EGG :: Instant D.C Egg
+MISC_HATCH_NOW :: Hatch Egg Immediately
+MISC_VIEW_STATS_IN_SUMMARY :: View IVs & EVs in Summary
+MISC_NO_OUTLINES :: No Outlines
+MISC_SUPER_FAST_DIALOGS :: Super Fast Dialogs
+
+# Message
+NOTE_MUSIC_FILE :: Select the music file:
+NOTE_TELEPORT_KEY :: Hold hotkey & enter building to teleport
+NOTE_ALREADY_UNLOCKED_MAP :: Already unlocked full fly map!
+NOTE_NO :: No
+NOTE_YES :: Yes
+
+# Game Locations
+GAME_LOC_AMBRETTE :: Ambrette Town
+GAME_LOC_ANISTAR :: Anistar City
+GAME_LOC_CAMPHRIER :: Camphrier Town
+GAME_LOC_COUMARINE :: Coumarine City
+GAME_LOC_COURIWAY :: Couriway Town
+GAME_LOC_CYLLAGE :: Cyllage City
+GAME_LOC_DAY_CARE :: Day Care
+GAME_LOC_DENDEMILLE :: Dendemille Town
+GAME_LOC_FRIEND_SAFARI :: Friend Safari
+GAME_LOC_GEOSENGE :: Geosenge Town
+GAME_LOC_KILOUDE :: Kiloude City
+GAME_LOC_LAVERRE :: Laverre City
+GAME_LOC_LUMIOSE :: Lumiose City
+GAME_LOC_FACTORY :: Poké Ball Factory
+GAME_LOC_LAB :: Pokémon Lab
+GAME_LOC_LEAGUE :: Pokémon League
+GAME_LOC_CHAMBER :: Radiant Chamber
+GAME_LOC_SANTALUNE :: Santalune City
+GAME_LOC_SANTALUNE_FOREST :: Santalune Forest
+GAME_LOC_SPIRIT_DEN :: Sea Spirit's Den
+GAME_LOC_SHALOUR :: Shalour City
+GAME_LOC_SNOWBELLE :: Snowbelle City
+GAME_LOC_TEAM_FLARE :: Team Flare HQ
+GAME_LOC_TERMINUS_CAVE :: Terminus Cave
+GAME_LOC_UNKNOWN_DUNGEON :: Unknown Dungeon
+GAME_LOC_VANIVILLE :: Vaniville Town
+GAME_LOC_VIDEO_STUDIO :: Video Studio
+GAME_LOC_ANCIENT_TOMB :: Ancient Tomb
+GAME_LOC_BATTLE_RESORT :: Battle Resort
+GAME_LOC_CAVE_OF_ORIGIN :: Cave of Origin
+GAME_LOC_DESERT_RUINS :: Desert Ruins
+GAME_LOC_DEWFORD_TOWN :: Dewford Town
+GAME_LOC_EVER_GRANDE_CITY :: Ever Grande City
+GAME_LOC_FABLED_CAVE :: Fabled Cave
+GAME_LOC_FALLARBOR_TOWN :: Fallarbor Town
+GAME_LOC_FORTREE_CITY :: Fortree City
+GAME_LOC_GNARLED_DEN :: Gnarled Den
+GAME_LOC_GRANITE_CAVE :: Granite Cave
+GAME_LOC_ISLAND_CAVE :: Island Cave
+GAME_LOC_LILYCOVE_CITY :: Lilycove City
+GAME_LOC_LITTLEROOT :: Littleroot Town
+GAME_LOC_MAUVILLE :: Mauville City
+GAME_LOC_METEOR_FALLS :: Meteor Falls
+GAME_LOC_MOSSDEEP :: Mossdeep City
+GAME_LOC_NAMELESS :: Nameless Cavern
+GAME_LOC_NEW_MAUVILLE :: New Mauville
+GAME_LOC_OLDALE :: Oldale Town
+GAME_LOC_PACIFIDLOG :: Pacifidlog Town
+GAME_LOC_PETALBURG :: Petalburg City
+GAME_LOC_PETALBURG_WOODS :: Petalburd Woods
+GAME_LOC_RUSTBORO :: Rustboro City
+GAME_LOC_RUSTURF :: Rusturf Tunnel
+GAME_LOC_SCORCHED :: Scorched Slab
+GAME_LOC_SEA_MAUVILLE :: Sea Mauville
+GAME_LOC_SEALED :: Sealed Chambers
+GAME_LOC_SECRET :: Secret Meadows
+GAME_LOC_PILLAR :: Sky Pillar
+GAME_LOC_SLATEPORT :: Slateport City
+GAME_LOC_SOOTOPOLIS :: Sootopolis City
+GAME_LOC_VERDANTURF :: Verdanturf Town
+GAME_LOC_VICTORY_ROAD :: Victory Road
+
+# Setting
+PLUGIN_SETTING :: Config.
+PLUGIN_SUCCESS :: Success!
+PLUGIN_APPLIED_CHANGES :: Applied changes
+PLUGIN_HOME_MENU :: Returning to HOME
+CONFIG_LANGUAGE :: Language
+CONFIG_LANGUAGE_RESET :: Reset
+PLUGIN_KB_TYPE_SOMETHING :: Type something tp begin searching
+PLUGIN_KB_TYPE_MORE :: You did not type enough to do the search
+PLUGIN_KB_TRY_AGAIN :: Unfortunately we could not find anything that\nmatches your input.\n\nPlease restart and try again
+PLUGIN_KB_TOO_MANY :: Way too many populated results:
+PLUGIN_KB_CONTINUE :: Continue typing what you are searching for.

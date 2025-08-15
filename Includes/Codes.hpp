@@ -14,6 +14,11 @@ namespace CTRPluginFramework {
     void UpdateMiniSurvey(MenuEntry *entry);
     void UpdateGreets(MenuEntry *entry);
     void PlayerSearchSystem(MenuEntry *entry);
+    void UpdateGauge(MenuEntry *entry);
+    void Gauge(MenuEntry *entry);
+    void UnlockEveryOPower(MenuEntry *entry);
+    void UpdateUsers(MenuEntry *entry);
+    void ClearUsersList(MenuEntry *entry);
 
     vector<string> GetBattleParty(vector<string> party);
     void PartyPosition(MenuEntry *entry);
@@ -26,6 +31,7 @@ namespace CTRPluginFramework {
     void Moves(MenuEntry *entry);
     void ExpMultiplier(MenuEntry *entry);
     void UpdateExpMultiplier(MenuEntry *entry);
+    void AccessBag(MenuEntry *entry);
     void AllowMultipleMegas(MenuEntry *entry);
     bool IsValid(u32 pointer, PK6 *pkmn);
     bool ViewInfoCallback(const Screen &screen);
@@ -41,6 +47,10 @@ namespace CTRPluginFramework {
     void FastWalkRun(MenuEntry *entry);
     void WalkThroughWalls(MenuEntry *entry);
     void StayInAction(MenuEntry *entry);
+    void ActionMusic(MenuEntry *entry);
+    void ApplyMusic(MenuEntry *entry);
+    void Teleportation(MenuEntry *entry);
+    void FlyMapInSummary(MenuEntry *entry);
     void UnlockFullFlyMap(MenuEntry *entry);
     void RenameAnyPokemon(MenuEntry *entry);
     void LearnAnyTeachable(MenuEntry *entry);

@@ -1,0 +1,359 @@
+# German text version - non-fluent translation
+
+# This .txt file is up-to-date with Gen 6 CTRPluginFramework 0.1.1. File parsing and language support is based off of Lukas' ACNL plugin.
+# To edit the plugin's text to your own liking, change the text behind the "::" ONLY.
+# "\n" means new line so do not remove that.
+# Every Line that starts with "#" is just a note and does not need to be changed.
+
+# If translating to other languages, ONLY replace texts after "::".
+
+# Player Search System
+PLAYER_SEARCH_SYSTEM :: Spieler-Suchsystem
+PLAYER_SEARCH_SYSTEM_PROFILE :: Profil
+PLAYER_SEARCH_SYSTEM_O_POWER_GAUGE :: O-Kraft-Anzeige
+PLAYER_SEARCH_SYSTEM_CLEAR_USERS_LIST :: Spielerliste löschen
+PLAYER_SEARCH_SYSTEM_UNLOCK_EVERY_O_POWER :: Alle O-Kräfte freischalten
+PLAYER_SEARCH_SYSTEM_UNLOCK_EVERY_O_POWER_NOTE :: Spiel speichern und neu starten, um Änderungen dauerhaft anzuwenden.
+
+# Keyboard
+KB_PSS_ICON :: Symbol:
+KB_PSS_NICES :: Gefällt mir:
+KB_PSS_WISHES :: Wünsche:
+KB_PSS_PROFILE_MESSAGE :: Nachricht:
+KB_PSS_HISTORY :: Verlauf:
+KB_PSS_CLEAR_HISTORY :: Löschen
+KB_PSS_HISTORY_CLEARED :: Verlauf gelöscht!
+KB_PSS_BATTLE :: Kämpfe
+KB_PSS_TRADE :: Tausch
+KB_PSS_LINKS :: Verbindungen:
+KB_PSS_SELECT_LINK :: Ziel auswählen:\n\n
+KB_PSS_LINK :: Verbindung
+KB_PSS_WIFI :: Wi-Fi
+KB_PSS_IR :: IR
+KB_PSS_TOTAL_LINK :: Gesamt:
+KB_PSS_LINK_AMOUNT :: Anzahl:
+KB_PSS_SURVEY_DUPLICATE :: Duplikat (Quelle):
+KB_PSS_SURVEY_PASTE_TO :: Zu (Ziel):
+KB_PSS_SURVEY :: Mini-Umfrage(n) dupliziert!
+KB_PSS_GREETS :: Grüße:
+KB_PSS_GREET_TODAY :: Heute
+KB_PSS_GREET_TOTAL :: Gesamt
+KB_PSS_PROFILE_ICONS :: Symbole
+KB_PSS_PROFILE_NICES :: Gefällt mir
+KB_PSS_PROFILE_WISHES :: Wünsche
+KB_PSS_PROFILE_MESSAGE_2:: Nachricht
+KB_PSS_PROFILE_HISTORY :: Verlauf
+KB_PSS_PROFILE_LINKS :: Verbindungen
+KB_PSS_PROFILE_MINI_SURVEY :: Mini-Umfrage
+KB_PSS_PROFILE_GREETS :: Grüße
+KB_PSS_USER_LIST_FRIENDS :: Freunde
+KB_PSS_USER_LIST_ACQUAINTANCES :: Bekannte
+KB_PSS_USER_LIST_CLEARED :: Spielerliste gelöscht!
+
+# MESSAGE
+NOTE_UNLOCK_O_POWER_DONE :: Alle O-Kräfte wurden bereits freigeschaltet!
+NOTE_UNLOCK_O_POWERS :: Alle O-Kräfte freigeschaltet!
+
+# Battle
+BATTLE :: Kampf
+BATTLE_PARTY_POSITION :: Teamposition:
+BATTLE_IN_BATTLE :: Im Kampf
+BATTLE_CONDITION :: Zustand
+BATTLE_STATS :: Statuswerte
+BATTLE_HEALTH_AND_MANA :: KP & AP
+BATTLE_ITEM :: Item
+BATTLE_MOVES :: Attacken
+BATTLE_EXP_MULTIPLIER :: EP-Multiplikator
+BATTLE_VIEW_POKEMON_INFOS :: Pokémon-Informationen ansehen.
+BATTLE_ACCESS_BAG :: Beutel öffnen
+BATTLE_ALLOW_MEGAS :: Mehrere Mega-Entwicklungen erlauben
+BATTLE_OTHER :: Sonstiges
+BATTLE_NO_WILD_POKEMON :: Keine wilden Pokémon
+BATTLE_WILD_POKEMON_SPAWNER :: Wilde Pokémon erscheinen lassen
+BATTLE_ALWAYS_SHINY :: Immer Schillernd
+BATTLE_CAPTURE_RATE_100 :: Fangrate 100 %
+BATTLE_CAPTURE_TRAINER_POKEMON :: Trainer-Pokémon fangen
+
+# Keyboard
+KB_BATTLE_EMPTY :: [Leer]
+KB_BATTLE_POSITION :: Position:
+KB_BATTLE_SELECTED_POSITION :: Gewählte Position im Kampf:
+KB_BATTLE_PARALYZED :: Paralyse
+KB_BATTLE_ASLEEP :: Schlafend
+KB_BATTLE_FROZEN :: Gefroren
+KB_BATTLE_BURNED :: Verbrannt
+KB_BATTLE_POISONED :: Vergiftet
+KB_BATTLE_NO_STATUS_EFFECTS :: Keine
+KB_BATTLE_AFFECTED :: Betroffen
+KB_BATTLE_STATUS_REMOVED :: Status entfernt
+KB_BATTLE_STATUS_APPLIED :: Status zugefügt:
+KB_BATTLE_STATS_BASE :: Basis
+KB_BATTLE_STATS_BOOST :: Erhöhungen
+KB_BATTLE_STAT_ATTACK :: Angriff
+KB_BATTLE_STAT_DEFENSE :: Verteidigung
+KB_BATTLE_STAT_SP_ATTACK :: Spezial-Angriff
+KB_BATTLE_STAT_SP_DEFENSE :: Spezial-Verteidigung
+KB_BATTLE_STAT_SPEED :: Initiative
+KB_BATTLE_STAT_ACCURACY :: Genauigkeit
+KB_BATTLE_STAT_EVASIVENESS :: Fluchtwert
+KB_BATTLE_STAT_UPDATED :: Aktualisiert
+KB_BATTLE_STAT_BOOSTED :: Erhöht
+KB_BATTLE_HEALTH :: KP
+KB_BATTLE_MANA :: AP
+KB_BATTLE_HEALTH_SET_TO :: KP gesetzt auf:
+KB_BATTLE_MANA_SET_TO :: AP gesetzt auf:
+KB_BATTLE_ITEM_CHANGED :: Item geändert:
+KB_BATTLE_MOVE :: Attacke
+
+PK_VIEW_HP :: KP
+PK_VIEW_ATK :: Ang
+PK_VIEW_DEF :: Vert
+PK_VIEW_SPE :: Init
+PK_VIEW_SPA :: Sp.-Ang
+PK_VIEW_SPD :: Sp.-Vert
+PK_VIEW_SLOT :: Platz:
+PK_VIEW_SPECIES :: Spezies:
+PK_VIEW_NATURE :: Wesen:
+PK_VIEW_ITEM :: Item:
+PK_VIEW_ABILITY :: Fähigkeit:
+PK_VIEW_MOVES :: [Attacken]
+PK_VIEW_NONE :: Keine
+PK_VIEW_IV :: [DV]
+PK_VIEW_EV :: [FP]
+PK_VIEW_ENABLE :: Aktivieren
+PK_VIEW_DISABLE :: Deaktivieren
+PK_VIEW_INFO :: Infoansicht:
+
+SPAWNER_INVALID :: Ungültige Spezies ausgewählt
+KB_SPAWNER_FORM :: Form:
+KB_SPAWNER_LEVEL :: Level:
+SPAWNER_SPAWNING :: Erscheint:
+
+# Editor & PKHeX
+EDITOR :: PKHeX
+EDITOR_TRAINER :: Trainer
+EDITOR_INFO :: Info
+EDITOR_TID_SID :: ID & SID
+EDITOR_IGN :: Name
+EDITOR_TIME_PLAYED :: Spielzeit
+EDITOR_GAME_LANGUAGE :: Spielsprache
+EDITOR_BAG :: Beutel
+EDITOR_CURRENCY :: Währung
+EDITOR_MONEY :: Geld
+EDITOR_BATTLE_POINTS :: Kampf-Punkte
+EDITOR_POKE_MILES :: Pokémeilen
+EDITOR_BAG_ITEMS :: Items
+EDITOR_BAG_MEDICINE :: Medizin
+EDITOR_BAG_BERRIES :: Beeren
+EDITOR_BAG_SPECIAL :: TMs & VMs + Basis-Items
+EDITOR_BAG_TMS_HMS :: TMs & VMs
+EDITOR_BAG_KEY_ITEMS :: Basis-Items
+EDITOR_PC_BOX :: PC-Box
+EDITOR_PC_EXPORT_IMPORT :: Exportieren & Importieren
+EDITOR_PC :: Editor
+EDITOR_PC_POSITION :: Position
+EDITOR_PC_MAIN :: Haupt
+EDITOR_PC_SHINY :: Schillernd
+EDITOR_PC_SPECIES :: Spezies
+EDITOR_PC_IS_NICKNAMED :: Spitzname vorhanden
+EDITOR_PC_NICKNAME :: Spitzname
+EDITOR_PC_LEVEL :: Level
+EDITOR_PC_NATURE :: Wesen
+EDITOR_PC_GENDER :: Geschlecht
+EDITOR_PC_FORM :: Form
+EDITOR_PC_HELD_ITEM :: getragenes Item
+EDITOR_PC_ABILITY :: Fähigkeit
+EDITOR_PC_FRIENDSHIP :: Freundschaft
+EDITOR_PC_LANGUAGE :: Sprache
+EDITOR_PC_IS_EGG :: Ei
+EDITOR_PC_VIRUS :: Pokérus
+EDITOR_PC_COUNTRY :: Land
+EDITOR_PC_REGION :: 3DS-Region
+EDITOR_PC_ORIGINS :: Herkunft
+EDITOR_PC_ORIGINS_GAME_FROM :: Spiel
+EDITOR_PC_ORIGINS_BALL :: Ball
+EDITOR_PC_ORIGINS_MET_LEVEL :: Begegnungslevel
+EDITOR_PC_ORIGINS_MET_DATE :: Begegnungsdatum
+EDITOR_PC_ORIGINS_IS_FATEFUL_ENCOUNTER :: Schicksalhafte Begegnung
+EDITOR_PC_ORIGINS_EGG_MET_DATE :: Ei-Begegnungsdatum
+EDITOR_PC_STATS :: Statuswerte
+EDITOR_PC_STATS_HP :: KP
+EDITOR_PC_STATS_ATK :: Ang
+EDITOR_PC_STATS_DEF :: Vert
+EDITOR_PC_STATS_SPE :: Init
+EDITOR_PC_STATS_SPA :: Sp.-Ang
+EDITOR_PC_STATS_SPD :: Sp.-Vert
+EDITOR_PC_STATS_IV :: DV
+EDITOR_PC_STATS_EV :: FP
+EDITOR_PC_STATS_CONTEST :: Wettbewerb
+EDITOR_PC_MOVES :: Attacken
+EDITOR_PC_MOVES_CURRENT :: Aktuelle Attacken
+EDITOR_PC_PP_UPS :: AP-Plus
+EDITOR_PC_RELEARN_MOVES :: Attacken zum Erinnern
+EDITOR_PC_MISC :: Sonstiges
+EDITOR_PC_MISC_SID :: SID
+EDITOR_PC_MISC_TID :: ID
+EDITOR_PC_MISC_OT_NAME :: OT-Name
+EDITOR_PC_MISC_LATEST_OT :: Letzter (nicht OT) Trainer
+EDITOR_PC_ANYWHERE :: Überall auf den PC zugreifen
+EDITOR_PC_BOXES :: 31 Boxen freigeschaltet
+EDITOR_BOX :: Box:
+EDITOR_POSITION :: Position:
+EDITOR_INVALID_POSITION :: Ungültige Position
+EDITOR_CONTEST_COOL :: Coolness
+EDITOR_CONTEST_BEAUTY :: Schönheit
+EDITOR_CONTEST_CUTE :: Anmut
+EDITOR_CONTEST_SMART :: Klugheit
+EDITOR_CONTEST_TOUGH :: Stärke
+EDITOR_CONTEST_SHEEN :: Glanz
+EDITOR_BOXES_UNLOCKED :: Alle Boxen freigeschaltet!
+EDITOR_BOXES_ALREADY_UNLOCKED :: Alle Boxen bereits freigeschaltet!
+EDITOR_CLONE_FAILED_DATA :: Pokémon aus Quelle konnte nicht abgerufen werden
+EDITOR_CLONE_FAILED_PASTE :: Pokémon konnte nicht ins Ziel gesetzt werden
+EDITOR_CLONE_SUCCESS :: Pokémon erfolgreich geklont
+EDITOR_CLONE_START_BOX :: Kopieren aus Box:
+EDITOR_CLONE_BOX_POSITION :: Position in Box
+EDITOR_CLONE_PASTE_BOX :: Einfügen in Box:
+EDITOR_CLONE_PASTE_BOX_POSITION :: Zielposition in Box:
+EDITOR_CLONE_FAILED_INIT :: Klonen konnte nicht gestartet werden
+SEARCH_SPECIES :: Spezies:
+SEARCH_ABILITY :: Fähigkeit:
+SEARCH_ITEM :: Item:
+SEARCH_MOVE :: Attacke:
+
+# Message
+NOTE_TIME_UPDATED :: Spielzeit aktualisiert.
+NOTE_TIME_HOURS :: Stunden
+NOTE_TIME_MINUTES :: Minuten
+NOTE_TIME_SECONDS :: Sekunden
+NOTE_LANGUAGE_JAPANESE :: Japanisch
+NOTE_LANGUAGE_ENGLISH :: Englisch
+NOTE_LANGUAGE_FRENCH :: Französisch
+NOTE_LANGUAGE_ITALIAN :: Italienisch
+NOTE_LANGUAGE_GERMAN :: Deutsch
+NOTE_LANGUAGE_SPANISH :: Spanisch
+NOTE_LANGUAGE_KOREAN :: Koreanisch
+NOTE_GAME_LANGUAGE :: Speichern und neu starten, um zu ändern auf:
+NOTE_EXPORT_FILE_NAME :: Name:
+NOTE_EXPORT_SUCCESS :: Daten erfolgreich exportiert!
+NOTE_IMPORT_SUCCESS :: Daten erfolgreich importiert!
+NOTE_BACKUP_LIMIT :: Limit erreicht! Alte Sicherungen löschen?
+NOTE_BACKUPS_ERASED :: Alle Sicherungen wurden gelöscht
+NOTE_EDITOR_EXPORT :: Exportieren
+NOTE_EDITOR_IMPORT :: Importieren
+NOTE_BACKUP_NONE :: Keine Sicherungen zur Wiederherstellung vorhanden
+NOTE_BACKUP_INVALID :: Ungültige Auswahl. Bitte erneut versuchen
+NOTE_EDITOR_FAILED_ENCRYPT :: Daten konnten nicht verschlüsselt oder geschrieben werden!
+NOTE_SHINIFY :: Spezies schillernd gemacht?
+NOTE_SPECIES_MALE :: Männlich
+NOTE_SPECIES_FEMALE :: Weiblich
+NOTE_CANNOT_CHANGE_GENDER :: Geschlecht kann nicht geändert werden
+NOTE_FORM_UPDATE :: Form aktualisiert!
+NOTE_VIRUS_CURED :: Geheilt
+NOTE_VIRUS_NON_CURED :: Nicht geheilt
+NOTE_VIRUS_STRAIN :: Stamm:
+NOTE_VIRUS_DAYS :: Tage:
+NOTE_MET_YEAR :: Jahr
+NOTE_MET_MONTH :: Monat
+NOTE_MET_DAY :: Tag
+
+# Misc.
+MISC :: Sonstiges
+MISC_FAST_WALK_RUN :: Schnelles Gehen & Laufen
+MISC_WALK_THROUGH_WALLS :: Durch Wände gehen
+MISC_STAY_IN_ACTION :: Im Action-Modus bleiben
+MISC_ACTION_MUSIC :: Action-Musik
+MISC_TELEPORTATION :: Teleportation
+MISC_ACCESS_FLY_MAP :: Flugkarte über Übersicht öffnen
+MISC_UNLOCK_MAP :: Volle Flugkarte freischalten
+MISC_OTHER :: Sonstiges
+MISC_RENAME_POKEMON :: Pokémon umbenennen
+MISC_LEARN_ANY :: Jede TM & VM erlernbar
+MISC_INSTANT_EGG :: Sofortiges D.-Center-Ei
+MISC_HATCH_NOW :: Ei sofort ausbrüten
+MISC_VIEW_STATS_IN_SUMMARY :: DV & FP in Übersicht anzeigen
+MISC_NO_OUTLINES :: Keine Umrisse
+MISC_SUPER_FAST_DIALOGS :: Super-schnelle Dialoge
+
+# Message
+NOTE_MUSIC_FILE :: Musikdatei auswählen:
+NOTE_TELEPORT_KEY :: Hotkey halten & Gebäude betreten zum Teleportieren
+NOTE_ALREADY_UNLOCKED_MAP :: Volle Flugkarte bereits freigeschaltet!
+NOTE_NO :: Nein
+NOTE_YES :: Ja
+
+# Game Locations
+GAME_LOC_AMBRETTE :: Relievera City
+GAME_LOC_ANISTAR :: Fluxia City
+GAME_LOC_CAMPHRIER :: Nouvaria City
+GAME_LOC_COUMARINE :: Tempera City
+GAME_LOC_COURIWAY :: Fractalia City
+GAME_LOC_CYLLAGE :: Reliana City
+GAME_LOC_DAY_CARE :: Pokémon-Pension
+GAME_LOC_DENDEMILLE :: Romantia City
+GAME_LOC_FRIEND_SAFARI :: Freundessafari
+GAME_LOC_GEOSENGE :: Petrophia City
+GAME_LOC_KILOUDE :: Kiloude City
+GAME_LOC_LAVERRE :: Romantia City
+GAME_LOC_LUMIOSE :: Illumina City
+GAME_LOC_FACTORY :: Pokéballfabrik
+GAME_LOC_LAB :: Pokémon-Labor
+GAME_LOC_LEAGUE :: Pokémon-Liga
+GAME_LOC_CHAMBER :: Strahlender Saal
+GAME_LOC_SANTALUNE :: Aquacorde City
+GAME_LOC_SANTALUNE_FOREST :: Nouvaria-Wald
+GAME_LOC_SPIRIT_DEN :: Meerestempel
+GAME_LOC_SHALOUR :: Yantara City
+GAME_LOC_SNOWBELLE :: Fractalia City
+GAME_LOC_TEAM_FLARE :: Team-Flare-Versteck
+GAME_LOC_TERMINUS_CAVE :: Siegesstraße-Höhle
+GAME_LOC_UNKNOWN_DUNGEON :: Unbekannte Höhle
+GAME_LOC_VANIVILLE :: Escissia City
+GAME_LOC_VIDEO_STUDIO :: Videostudio
+GAME_LOC_ANCIENT_TOMB :: Alte Ruhestätte
+GAME_LOC_BATTLE_RESORT :: Kampf-Resort
+GAME_LOC_CAVE_OF_ORIGIN :: Ursprungshöhle
+GAME_LOC_DESERT_RUINS :: Wüstenruinen
+GAME_LOC_DEWFORD_TOWN :: Faustauhaven
+GAME_LOC_EVER_GRANDE_CITY :: Prachtpolis City
+GAME_LOC_FABLED_CAVE :: Sagenhöhle
+GAME_LOC_FALLARBOR_TOWN :: Laubwechselfeld
+GAME_LOC_FORTREE_CITY :: Baumhausen City
+GAME_LOC_GNARLED_DEN :: Knorrhöhle
+GAME_LOC_GRANITE_CAVE :: Granithöhle
+GAME_LOC_ISLAND_CAVE :: Inselhöhle
+GAME_LOC_LILYCOVE_CITY :: Seegrasulb City
+GAME_LOC_LITTLEROOT :: Wurzelheim
+GAME_LOC_MAUVILLE :: Malvenfroh City
+GAME_LOC_METEOR_FALLS :: Meteoritenfall
+GAME_LOC_MOSSDEEP :: Moosbach City
+GAME_LOC_NAMELESS :: Namenlose Höhle
+GAME_LOC_NEW_MAUVILLE :: Neu-Malvenfroh
+GAME_LOC_OLDALE :: Blütenburg City
+GAME_LOC_PACIFIDLOG :: Floßbrunn
+GAME_LOC_PETALBURG :: Blütenburg City
+GAME_LOC_PETALBURG_WOODS :: Blütenburg-Wald
+GAME_LOC_RUSTBORO :: Metarost City
+GAME_LOC_RUSTURF :: Metaflur-Tunnel
+GAME_LOC_SCORCHED :: Wüstenei
+GAME_LOC_SEA_MAUVILLE :: See Mauville
+GAME_LOC_SEALED :: Versiegelte Kammern
+GAME_LOC_SECRET :: Geheime Wiese
+GAME_LOC_PILLAR :: Himmelsäule
+GAME_LOC_SLATEPORT :: Graphitport City
+GAME_LOC_SOOTOPOLIS :: Xeneroville
+GAME_LOC_VERDANTURF :: Wiesenflur
+GAME_LOC_VICTORY_ROAD :: Siegesstraße
+
+# Setting
+PLUGIN_SETTING :: Einstellungen
+PLUGIN_SUCCESS :: Erfolg!
+PLUGIN_APPLIED_CHANGES :: Änderungen angewendet
+PLUGIN_HOME_MENU :: Zurück zum HOME-Menü
+CONFIG_LANGUAGE :: Sprache
+CONFIG_LANGUAGE_RESET :: Zurücksetzen
+PLUGIN_KB_TYPE_SOMETHING :: Tippe etwas ein, um mit der Suche zu beginnen
+PLUGIN_KB_TYPE_MORE :: Du hast nicht genug eingegeben, um die Suche auszuführen
+PLUGIN_KB_TRY_AGAIN :: Leider konnten wir nichts finden,\ndas mit deiner Eingabe übereinstimmt.\n\nBitte starte neu und versuche es erneut
+PLUGIN_KB_TOO_MANY :: Viel zu viele Ergebnisse:
+PLUGIN_KB_CONTINUE :: Tippe weiter ein, wonach du suchst.

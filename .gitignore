@@ -2,7 +2,6 @@
 /Build
 *.3gx
 3gxtool
-*.txt
 *.DS_Store
 /luma
 /luma.zip

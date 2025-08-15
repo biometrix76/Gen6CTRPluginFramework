@@ -2,6 +2,7 @@
 #include <functional>
 #include <unordered_map>
 #include "Helpers.hpp"
+#include "Parser.hpp"
 
 namespace CTRPluginFramework {
     GameName currGameName = GameName::None;
@@ -111,19 +112,19 @@ namespace CTRPluginFramework {
         // Handle character removal
         if (event.type == KeyboardEvent::CharacterRemoved) {
             input.clear();
-            handleError("Type something to begin searching");
+            handleError(getLanguage->Get("PLUGIN_KB_TYPE_SOMETHING"));
             return;
         }
 
         // Handle insufficient input length
         if (input.size() < 3) {
-            handleError("You did not type enough to do the search");
+            handleError(getLanguage->Get("PLUGIN_KB_TYPE_MORE"));
             return;
         }
 
         // Handle no matches
         if (matchCount == 0) {
-            handleError("Unfortunately we could not find anything that\nmatches your input.\n\nPlease restart and try again");
+            handleError(getLanguage->Get("PLUGIN_KB_TRY_AGAIN"));
             return;
         }
 
@@ -147,7 +148,7 @@ namespace CTRPluginFramework {
         }
 
         // Handle too many matches
-        handleError("Way too many populated results: " + to_string(matchCount) + "\nContinue typing what you are searching for.");
+        handleError(getLanguage->Get("PLUGIN_KB_TOO_MANY") + " " + to_string(matchCount) + "\n" + getLanguage->Get("PLUGIN_KB_CONTINUE"));
     }
 
     int speciesID = 0;
@@ -183,7 +184,7 @@ namespace CTRPluginFramework {
     void SearchForSpecies(MenuEntry *entry) {
         string output;
 
-        if (KeyboardHandler<string>::Set("Pokemon:", true, 11, output, "", HandleSpeciesInputChange))
+        if (KeyboardHandler<string>::Set(getLanguage->Get("SEARCH_SPECIES"), true, 11, output, "", HandleSpeciesInputChange))
             return;
     }
 
@@ -220,7 +221,7 @@ namespace CTRPluginFramework {
     void SearchForAbility(MenuEntry *entry) {
         string output;
 
-        if (KeyboardHandler<string>::Set("Ability:", true, 16, output, "", HandleAbilityInputChange))
+        if (KeyboardHandler<string>::Set(getLanguage->Get("SEARCH_ABILITY"), true, 16, output, "", HandleAbilityInputChange))
             return;
     }
 
@@ -265,7 +266,7 @@ namespace CTRPluginFramework {
     void SearchForItem(MenuEntry *entry) {
         string output;
 
-        if (KeyboardHandler<string>::Set("Item:", true, 18, output, "", HandleHeldItemInputChange))
+        if (KeyboardHandler<string>::Set(getLanguage->Get("SEARCH_ITEM"), true, 18, output, "", HandleHeldItemInputChange))
             return;
     }
 
@@ -310,7 +311,7 @@ namespace CTRPluginFramework {
     void SearchForMove(MenuEntry *entry) {
         string output;
 
-        if (KeyboardHandler<string>::Set("Move:", true, 27, output, "", HandleMoveInputChange))
+        if (KeyboardHandler<string>::Set(getLanguage->Get("SEARCH_MOVE"), true, 27, output, "", HandleMoveInputChange))
             return;
     }
 }
