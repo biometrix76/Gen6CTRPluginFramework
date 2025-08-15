@@ -1,6 +1,6 @@
 # Gen 6 CTRPluginFramework
 
-Gen 6 CTRPluginFramework is a 3gx plugin for Pokemon X, Y, Omega Ruby, and Alpha Sapphire on the Nintendo 3DS console. This plugin is based off of [Alolan CTRPluginFramework](https://github.com/biometrix76/alolanctrpluginframework/releases/latest), with PKHeX implementations in an updated `.3gx` file format.
+Gen 6 CTRPluginFramework is a 3gx plugin for Pokemon X, Y, Omega Ruby, and Alpha Sapphire on the Nintendo 3DS console. This plugin is based off of [Alolan CTRPluginFramework](https://github.com/biometrix76/alolanctrpluginframework/releases/latest), with PKHeX implementations in an updated `.3gx` file format. This project is a continuation of the previously abandoned [project](https://github.com/semaj14/Multi-PokemonFramework) due to lost accesses.
 
 ![Top](https://github.com/biometrix76/Gen6CTRPluginFramework/blob/main/Top.bmp)
 ![Bottom](https://github.com/biometrix76/Gen6CTRPluginFramework/blob/main/Bottom.bmp)
@@ -31,4 +31,4 @@ Thanks to the following projects, teams, and individuals for being great resourc
 - [AnalogMan151](https://github.com/AnalogMan151) for the ultraSuMoFramework foundation of [Alolan CTRPluginFramework](https://github.com/biometrix76/alolanctrpluginframework/releases/latest)
 - [dragongyre173](https://github.com/dragonfyre173) for the data viewer overlay in-game
 - [JourneyOver](https://github.com/JourneyOver) et al. for providing an extensive ActionReplay code [database](https://github.com/JourneyOver/CTRPF-AR-CHEAT-CODES)
-- [Alexander Hartmann](https://github.com/Hartie95) & [semaj14](https://github.com/semaj14) for providing the XY & ORAS foundation of this plugin
+- [Alexander Hartmann](https://github.com/Hartie95) for providing the XY & ORAS foundation of this plugin
