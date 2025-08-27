@@ -34,7 +34,7 @@ namespace CTRPluginFramework {
             * \param address The address to write to
             * \param value The variable to put the values in
             */
-            static bool Write32(u32 address, vector<u32> value);
+            static bool Write32(u32 address, const vector<u32> value);
 
             /**
             * \brief Safely read 32 bits
